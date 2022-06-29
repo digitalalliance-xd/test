@@ -78,7 +78,7 @@ def banner():
     wel = '# 𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐀𝐋𝐋𝐈𝐀𝐍𝐂𝐄 𝐓𝐎𝐎𝐋𝐒'
     wel2 = mark(wel, style='green')
     sol().print(wel2)
-    au='𝐀𝐔𝐓𝐇𝐎𝐑    :  𝔻𝕀𝔾𝕀𝕋𝔸𝕃 𝔸𝕃𝕃𝕀𝔸ℕℂ𝔼 \nWHATSAPP  :  💔♕  ０𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦  🐺💗'
+    au='𝐀𝐔𝐓𝐇𝐎𝐑    :  𝔻𝕀𝔾𝕀𝕋𝔸𝕃 𝔸𝕃𝕃𝕀𝔸ℕℂ𝔼 \nWHATSAPP  :  0𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦'
     pengembang1=nel(au,style="green")
     cetak(nel(pengembang1, title='INFORMASI PENGEMBANG '))
 
