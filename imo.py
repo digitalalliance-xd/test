@@ -76,10 +76,10 @@ def clear():
 def banner():
     clear()
     wel = '# 𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐀𝐋𝐋𝐈𝐀𝐍𝐂𝐄 𝐓𝐎𝐎𝐋𝐒'
-    wel2 = mark(wel, style='blue')
+    wel2 = mark(wel, style='cyan')
     sol().print(wel2)
     au='𝐀𝐔𝐓𝐇𝐎𝐑    :  𝔻𝕀𝔾𝕀𝕋𝔸𝕃 𝔸𝕃𝕃𝕀𝔸ℕℂ𝔼 \nWHATSAPP  :  💔♕  ０𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦  🐺💗'
-    pengembang1=nel(au,style="blue")
+    pengembang1=nel(au,style="cyan")
     cetak(nel(pengembang1, title='INFORMASI PENGEMBANG '))
 
 try:
@@ -358,7 +358,7 @@ class instagram:
             self.passwordAPI(xnx)
 
     def generateAPI(self,user,o,zx=''):
-        io=f'[❤️] Hasil OK disimpan ke: result/{day}.txt\n[❤️] Hasil CP disimpan ke: result/{day}.txt'
+        io=f'[*] Hasil OK disimpan ke: result/{day}.txt\n[*] Hasil CP disimpan ke: result/{day}.txt'
         oi = nel(io, style='cyan')
         cetak(nel(oi, title='CRACK DIMULAI'))
         ipku='# [❤️] Jika alamat IP terkena spam hidupkan mode pesawat selama 10 detik'
