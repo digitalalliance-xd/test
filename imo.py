@@ -78,7 +78,7 @@ def banner():
     wel = '# 𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐀𝐋𝐋𝐈𝐀𝐍𝐂𝐄 𝐓𝐎𝐎𝐋𝐒'
     wel2 = mark(wel, style='green')
     sol().print(wel2)
-    au='𝐀𝐔𝐓𝐇𝐎𝐑    :  𝐓𝐄𝐌𝐏𝐈𝐊-𝐗𝐃 \nWHATSAPP  :  💔♕  ０𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦  🐺💗'
+    au='𝐀𝐔𝐓𝐇𝐎𝐑    :  𝐓𝐄𝐌𝐏𝐈𝐊-𝐗𝐃 \nWHATSAPP  :  0𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦'
     pengembang1=nel(au,style="green")
     cetak(nel(pengembang1, title='INFORMASI PENGEMBANG '))
 
@@ -118,18 +118,18 @@ def login_kamu():
         except FileNotFoundError:
             banner()
             wel = '# Pilih Cara Kamu Login'
-            wel2 = mark(wel, style='cyan')
+            wel2 = mark(wel, style='green')
             sol().print(wel2)
             io = '[1] Login Menggunakan Cookie\n[2] Login Menggunakan Username & Password'
-            oi = nel(io, style='cyan')
+            oi = nel(io, style='green')
             cetak(nel(oi, title='Pilih Cara Kamu Login'))
-            loginpil=input(f"[❤️] Masukan Pilihan :{C} ")
+            loginpil=input(f"[*] Masukan Pilihan :{C} ")
             if loginpil=='1':
                 wel = '# Gunakan username dan cookies instagram untuk login. sebelum login pastikan akun bersifat publik bukan privat'
                 wel2 = mark(wel, style='red')
                 sol().print(wel2)
-                us=input(f'{CY}[❤️] Masukan Username :{C}')
-                cok=input(f'{CY}[❤️] Masukan Cookie :{C}')
+                us=input(f'{H}[*] Masukan Username :{C}')
+                cok=input(f'{H}[*] Masukan Cookie :{C}')
                 kuki=open('.kukis.log','w').write(cok)
                 user=open('.username','w').write(us)
                 os.system('python imo.py')
