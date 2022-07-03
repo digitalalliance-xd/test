@@ -770,9 +770,8 @@ def massal(self):
 
 import os
 os.system('git pull')
-if __name__ == "__main__":
-        try:
-                __import__("lisensi").checkin()
-        except Exception as e:
-                exit(str(e))
-
+if __name__=='__main__':
+    try:
+        login_kamu()
+    except requests.exceptions.ConnectionError:
+        exit(f'\n [{M}!{C}] Koneksi internet bermasalah')
