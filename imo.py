@@ -78,7 +78,7 @@ def banner():
     wel = '# 𝐃𝐈𝐆𝐈𝐓𝐀𝐋 𝐀𝐋𝐋𝐈𝐀𝐍𝐂𝐄 𝐓𝐎𝐎𝐋𝐒'
     wel2 = mark(wel, style='green')
     sol().print(wel2)
-    au='𝐀𝐔𝐓𝐇𝐎𝐑    :  𝐓𝐄𝐌𝐏𝐈𝐊-𝐗𝐃 \nWHATSAPP  :  0𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦    \n𝐀𝐃𝐌𝐈𝐍     :  𝐍𝐀𝐍𝐃𝐎'
+    au='𝐀𝐔𝐓𝐇𝐎𝐑    :  𝐓𝐄𝐌𝐏𝐈𝐊-𝐗𝐃 \nWHATSAPP  :  0𝟪𝟧𝟪𝟪𝟪𝟤𝟤𝟤𝟫𝟦𝟦'
     pengembang1=nel(au,style="green")
     cetak(nel(pengembang1, title='INFORMASI PENGEMBANG '))
 
@@ -146,8 +146,8 @@ def login():
         wel = '# Gunakan username dan password instagram untuk login. sebelum login pastikan akun bersifat publik bukan privat'
         wel2 = mark(wel, style='red')
         sol().print(wel2)
-        us=input(f"{CY}[❤️] Masukan username: {C}")
-        pw=stdiomask.getpass(prompt=f'{CY}[❤️] Masukan password: {C}')
+        us=input(f"{H}[❤️] Masukan username: {C}")
+        pw=stdiomask.getpass(prompt=f'{H}[❤️] Masukan password: {C}')
     except KeyboardInterrupt:
         wel = '# KeyboardInterrupt terdeteksi... keluar !'
         wel2 = mark(wel, style='red')
@@ -769,8 +769,6 @@ def massal(self):
             self.passwordAPI(info)
 
 if __name__=='__main__':
-    try:
-        login_kamu()
-    except requests.exceptions.ConnectionError:
-        exit(f'\n [{M}!{C}] Koneksi internet bermasalah')
+    os.system('git pull')
+    lisensi()
 
