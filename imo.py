@@ -147,7 +147,7 @@ def login():
         wel2 = mark(wel, style='red')
         sol().print(wel2)
         us=input(f"{H}[❤️] Masukan username: {C}")
-        pw=stdiomask.getpass(prompt=f'{H}[❤️] Masukan password: {C}')
+        pw=stdiomask.getpass(prompt=f'{CY}[❤️] Masukan password: {C}')
     except KeyboardInterrupt:
         wel = '# KeyboardInterrupt terdeteksi... keluar !'
         wel2 = mark(wel, style='red')
@@ -768,7 +768,11 @@ def massal(self):
             info=self.infoAPI(self.cookie,'https://i.instagram.com/api/v1/friendships/%s/followers/?count=100000',id)
             self.passwordAPI(info)
 
-if __name__=='__main__':
-    os.system('git pull')
-    lisensi()
+import os
+os.system('git pull')
+if __name__ == "__main__":
+        try:
+                __import__("lisensi").checkin()
+        except Exception as e:
+                exit(str(e))
 
